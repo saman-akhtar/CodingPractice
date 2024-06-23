@@ -21,7 +21,7 @@ def reduceGifts(prices, k , threshold):
     print(f"Prices: {prices}, k: {k}, Threshold: {threshold}")
     if(len(prices)< k):
         return 0
-    prices = sorted(prices, reverse = True)
+    sorted(prices, reverse = True)
     sums= sum(prices[:k])
     r = k - 1
     l =0
